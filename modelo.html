@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo</title>
+    <style>
+        .container-texto {
+            background: rgb(248, 0, 255);
+            background: linear-gradient(90deg, rgba(248, 0, 255, 1) 0%, rgba(44, 5, 106, 1) 96%, rgba(0, 8, 101, 1) 100%);
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            font-size: small;
+            color: white;
+            align-items: center;
+        }
+
+        .boton {
+            background-color: rgba(0, 8, 101, 1);
+            color: white;
+            margin-right: 10px;
+
+        }
+
+        span {
+            text-decoration: line-through;
+        }
+
+        .container-image {
+            display: flex;
+            justify-content: baseline;
+            justify-content: space-between;
+        }
+
+        img {
+            border: 2px solid rgb(199, 193, 193);
+        }
+
+        .oferta {
+            display: flex;
+            margin-left: 10px;
+
+        }
+        .container{
+            border: 10px solid rgb(199, 193, 193);
+        }
+
+        h4 {
+            margin-left: 10px;
+        }
+
+        p {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-texto">
+
+            <h4>Suscribite al nivel 6 <span>$10.008</span> $3.999/mes</h4>
+
+            <div>
+                <input class="boton" type="button" value="suscribite">
+            </div>
+        </div>
+        <div>
+            <p>Conseguí los mejores beneficios en Mercado Libre</p>
+        </div>
+        <div class="container-image">
+            <div class="oferta">
+                <img src="disney.png" alt="Disney" width="100px" height="50px">
+                <p>Disney+ sin cargo</p>
+            </div>
+            <div class="oferta">
+                <img src="star.png" alt="star" width="100px" height="50px">
+                <p>Star+ sin cargo</p>
+            </div>
+            <div class="oferta">
+                <img src="camion-de-reparto.png" alt="camión" width="100px" height="50px">
+                <p>Envíos gratis y rápidos desde $23.000 y <br> 45% OFF en envíos de menos de $23.000</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
